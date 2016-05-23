@@ -1,23 +1,99 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8"> 
+<title>Index</title>
 
-<div class="home">
+<!-- EXTERNAL CSS -->
+<link rel="stylesheet" href="styles.css">
 
-  <h1 class="page-heading">Posts</h1>
+</head>
+<body>
+<div id="page">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div id="header">
+<img src="http://elmaonline.net/images/banner/0.png" alt="http://elmaonline.net" style="width:100%;height=">
+</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<div id="nav">
+<ul id="menu">
+  <li><a href="index.html" target="_self" style="background-color:#ffe150;color:#000000">Home page</a></li>
+  <li><a href="formatting.html" target="_self">Total times</a></li>
+  <li><a href="links%20&%20images.html" target="_self">Top pipers</a></li>
+  <li><a href="tables%20&%20lists.html" target="_self">Top finishers</a></li>
+  <li><a href="forms.html" target="_self">Pipe archive</a></li>
+  <li><a href="forms.html" target="_self">About</a></li>
+</ul>
+</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div id="left">
+<h2>Choose pipepack:</h2>
+
+<table class="levpacks" style="width:100%">
+<tr>
+<td class="levpacks1">adipi</td>
+<td class="levpacks2">by adi</td>
+</tr>
+<tr>
+<td class="levpacks1">Ankpi</td>
+<td class="levpacks2"></td>
+</tr>
+<tr>
+<td class="levpacks1">APipe</td>
+<td class="levpacks2">by Pab</td>
+</tr>
+<tr>
+<td class="levpacks1">BaSkP</td>
+<td class="levpacks2">by Skint0r</td>
+</tr>
+</table>
+<p id="beisik">
+adipi by adi<br>
+Ankpi<br>
+APipe by Pab<br>
+BaSkP by Skint0r<br>
+BBpaj by Blaztek<br>
+BPpi<br>
+CokePi by Zero<br>
+EPLP<br>
+FMPi by finman<br>
+HardPi<br>
+HazPi by barryp<br>
+HazPik by barryp<br>
+Hoapi<br>
+infpi by insaneguy<br>
+infpip by Inferno<br>
+jblP by jblaze<br>
+JoPi by John<br>
+Kabpie<br>
+KpaPi<br>
+mawpi by Mawane<br>
+Pipo<br>
+Popi<br>
+PTL<br>
+RIP<br>
+TRP<br>
+Z1 pipes<br>
+ZonPi<br>
+ZoroP<br>
+</p></div>
+
+<div id="main">
+<h2>Welcome to Pipe Central!</h2>
+<p id="beisik">
+This website is dedicated to all fans of elma pipe levels, however few there are.<br><br>
+What can you do here that you can't do elsewhere, e.g. on the <a href="http://elmaonline.net" target="_blank">Elma Online website</a>?<br><br>
+First of all, adding level packs is as easy as ever: all you need to do to add a new pack is enter its file name convention (e.g. HazPi) and click Add!, and all the levels beginning with the specified name will be automatically fetched from Elma Online, together with all finishers and their times, as well as some lev properties. Personal statistics are then automatically generated - including total times for all individual packs, completion ratios, ranking points, etc.<br><br>
+Global statistics are also available, with the ranking taking into account how many people finished particular levels, how many people played particular levpacks, etc., which hopefully will allow to determine who is the true pipe king! The ranking point system is explained in the <a href="about.html">About section</a>.<br><br>
+The final, although possibly the most important feature, is a complete database of all the included pipe packs, which hopefully will soon become the largest pipe archive available online. Moreover, the archive is easily downloadable, so more than 2000 pipe levels are only a click away!<br><br>
+User registration is (for now) not required, meaning that you can look through your statictics at any time.<br><br>
+Enjoy!
+</div>
+
+<div id="footer">
+Made by pawq, May 2016.
+</div>
 
 </div>
+</body>
+</html>
