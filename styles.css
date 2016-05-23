@@ -31,12 +31,14 @@ table.levpacks {
 td.levpacks1 {
 	text-align:left;
 	border:none;
+	padding:0px;
 	width:60px;
 }
 
 td.levpacks2 {
 	text-align:left;
 	border:none;
+	padding:0px;
 	width:100px;
 }
 
